@@ -1,4 +1,5 @@
-function takeANumber(line,joined){
+function takeANumber(line, joined){
   line = line.push(joined)
-  return "Welcome, " + joined + ". You are number " line.length "in line."
+  let string = "Welcome, " + joined + ". You are number " line.length "in line."
+  return string
 }
