@@ -22,7 +22,7 @@ function currentLine(line){
   else {
     let arr = []
     for (let i = 0; i < line.length; i++){
-      arr.push(i+1 + ". " + line[i]) 
+      arr.push(i+1 + ". " + line[i])
     }
     return "The line is current: " + arr.join(", ")
   }
